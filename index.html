@@ -1,20 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" type="text/css" href="../../css_resources/css_reset.css"/>
-  <link rel="stylesheet" type="text.css" href="style.css"/>
-  <title>Michael Hegner</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Bootstrap Portfolio</title>
 </head>
+
 <body>
 
-  <header>
-<h1>Michael Hegner</h1>
-  </header>
+ <!-- begin navbar code -->
+ <nav class="navbar navbar-expand-lg navbar-dark myNav row">
+    <!-- spacer div, hides below lg breakpoint -->
+    <div class="col col-lg-2 p-0"></div>
+<!-- columns for overall nav width -->
+    <div class="col col-lg-8 col-12 p-0 ">
+<!-- added margin=0 to fix bug on small screens -->
+      <div class="row m-0">
+        <!-- navbar brand code -->
+        <a class="text-center navbar-brand myBrand col-12 col-lg-6" href="index.html">
+          <h1 class="name text-center col-12">Michael Hegner</h1>
+        </a>
+        <!-- spacer div, hides below lg breakpoint -->
+        <div class="col-lg-1"></div>
+        <!-- nav buttons list, padding 0 corrects weird margin -->
+        <div class="nav navbar-nav col-12 col-lg-4 p-0">
+          <ul class="nav navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link activeLink" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link deadLink" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link deadLink" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <!-- end nav bar list -->
+      </div>
+      <!-- end row -->
+    </div>
+    <!-- end overall size layout -->
+    <div class="col col-lg-2  p-0"></div>
+<!-- spacer div, hides below large screen breakpoint -->
+  </nav>
+  <!-- end navbar code -->
 
-  <img src="images/Labrador-Retriever-MP.jpg"/>
-  
+  <section class="fluid-container">
+
+    <div class="row mt-3 mx-0">
+
+      <div class="col col-lg-8 col-md-10 col-10 m-auto border myContent p-3">
+
+        <div class="row">
+
+          <div class="col col-12">
+            <h2 class="contentHeadText">About Me</h2>
+          </div>
+
+          <div class="col col-12">
+
+            <div class="row ml-3">
+            <div class="col col-lg-3 col-md-6 col-12">
+            <img class="img-fluid" src="assets/images/IMG_0121 copy 3.jpg" alt="pix">
+          </div>
+
+          <div class="col">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ex pariatur, deserunt excepturi
+              consectetur amet reprehenderit? Magni ut culpa quidem cumque illo dolores totam quos maiores recusandae
+              dolorem error voluptatum asperiores molestiae, laborum suscipit eius reprehenderit laboriosam optio
+              provident odio saepe sint sequi voluptate. Nam modi, molestias aut totam culpa distinctio placeat sed.
+              Iusto eaque earum laudantium temporibus maxime eligendi unde eveniet nulla sunt, asperiores illo
+              delectus natus amet, molestias quaerat repellendus cupiditate incidunt totam nobis modi. Iure illo iste
+              recusandae nam doloremque porro earum, ipsam quae modi quidem repudiandae mollitia quas! Totam modi
+              repellat expedita illo rem ut officiis.</p>
+            </div>
+            </div>
+
+          <div class="row ml-3">
+            <div class="col">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta fugit distinctio dicta quo voluptatibus
+              numquam facere cum, animi, magni nesciunt similique, quae repudiandae harum aspernatur optio expedita
+              aut minima obcaecati eligendi. Praesentium autem doloremque repudiandae delectus totam, consectetur
+              aliquam sint necessitatibus ratione omnis magnam a facere animi debitis voluptate accusamus! Ipsa
+              quibusdam consequuntur, quae velit tempore debitis nam sequi asperiores nostrum delectus architecto
+              natus iusto iure voluptates saepe eius aperiam obcaecati neque earum veritatis harum cupiditate maxime
+              ducimus fugit! Mollitia quibusdam exercitationem molestiae adipisci assumenda obcaecati nemo, ullam
+              libero, iste recusandae doloremque hic? Minima quisquam dolores culpa fuga? Cupiditate, tempore.</p>
+            </div>
+            </div>
+            </div>
+
+
+          </div>
+
+
+
+        </div>
+
+      </div>
+
+    </div>
+    </div>
+
+    <div class="space">
+      &#8203;
+      &#8203;
+      &#8203;
+      &#8203;
+    </div>
+
+
+    <div class="row fixed-bottom footer">
+      <div class="col-12">
+        <p class="text-center align-center p-2 footerText">&copy; 2019 Michael Hegner</p>
+      </div>
+    </div>
+
+  </section>
+
 </body>
+
 </html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Bootstrap Portfolio</title>
+  </head>
+
+<body>
+   <!-- begin navbar code -->
+  <nav class="navbar navbar-expand-lg navbar-dark myNav row">
+      <!-- spacer div, hides below lg breakpoint -->
+      <div class="col col-lg-2 p-0"></div>
+  <!-- columns for overall nav width -->
+      <div class="col col-lg-8 col-12 p-0 ">
+  <!-- added margin=0 to fix bug on small screens -->
+        <div class="row m-0">
+          <!-- navbar brand code -->
+          <a class="text-center navbar-brand myBrand col-12 col-lg-6" href="index.html">
+            <h1 class="name text-center col-12">Michael Hegner</h1>
+          </a>
+          <!-- spacer div, hides below lg breakpoint -->
+          <div class="col-lg-1"></div>
+          <!-- nav buttons list, padding 0 corrects weird margin -->
+          <div class="nav navbar-nav col-12 col-lg-4 p-0">
+            <ul class="nav navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link deadLink" href="index.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link deadLink" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link activeLink" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <!-- end nav bar list -->
+        </div>
+        <!-- end row -->
+      </div>
+      <!-- end overall size layout -->
+      <div class="col col-lg-2  p-0"></div>
+  <!-- spacer div, hides below large screen breakpoint -->
+    </nav>
+    <!-- end navbar code -->
+<section class="fluid-container">
+
+  <div class="row mt-3 mx-0">
+
+      <div class="col col-lg-8 col-md-10 col-10 m-auto border myContent p-3">
+
+      <div class="contentHead">
+                <h2 class="contentHeadText">Contact Me</h2>
+            </div>
+
+            <form>
+              <div class="form-group">
+                <label for="inputName">Name:</label>
+                <input type="name" class="form-control" id="inputName" placeholder="John Smith">
+              </div>
+              <div class="form-group">
+                <label for="inputEmail">Email:</label>
+                <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="jsmith@email.com">
+              </div>
+
+              <div class="form-group">
+                <label for="textArea">Message:</label>
+                <textarea class="form-control" rows="10" id="textArea" placeholder="Send me a message!"></textarea>
+              </div>
+              
+              <button type="submit" class="btn myBtn">Submit</button>
+
+            </form>
+
+
+            
+
+          </div>
+
+    </div>
+
+
+  
+
+
+
+      
+
+
+
+    <div class="space">
+        &#8203;
+        &#8203;
+        &#8203;
+        &#8203;
+      </div>
+    
+
+    <div class="row fixed-bottom footer">
+      <div class="col-12">
+        <p class="text-center align-center p-2 footerText">&copy; 2019 Michael Hegner</p>
+      </div>
+    </div>
+
+  </section>
+
+</body>
+
+</html>
