@@ -120,8 +120,9 @@ h1 {
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
   position: relative;
-  bottom: 16%;
+  bottom: 25%;
   display: block;
+  border-radius: 15%;
 
 }
 
