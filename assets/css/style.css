@@ -1,5 +1,5 @@
 body {
-  background-image:url(../images/white-waves.png)
+  background-image:url(../images/prism.png)
 }
 
 p {
@@ -60,7 +60,8 @@ h1 {
 }
 
 .myContent {
-  background:white;
+  background:#ffffff;
+  opacity: 0.75;
 }
 
 .contentHeadText {
