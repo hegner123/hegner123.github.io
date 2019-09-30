@@ -29,26 +29,36 @@ h1 {
 	padding: 0px !important;
 }
 
+.nav-container {
+  margin-left: 17.5%;
+}
+
 .myBrand {
-  background:#4aaaa5;
+  background:#eb2a3a;
+  
 }
 
 .name {
   padding-left:10px;
   padding-right:10px;
+  
+}
+
+.nav-buttons {
+  margin-left: 15%;
 }
 
 
 .navButtonToggle {
   padding:1.07rem;
-  background:#4aaaa5;
+  background:#eb2a3a;
   border-radius: 0;
 }
 
 
 
 .activeLink {
-  background:#4aaaa5;
+  background:#eb2a3a;
   color:white !important;
   padding:1.3rem;
   text-align: center;
@@ -61,7 +71,7 @@ h1 {
 }
 
 .deadLink:hover {
-  background:#4aaaa5;
+  background:#eb2a3a;
   color:white !important;
 }
 
@@ -70,13 +80,13 @@ h1 {
 }
 
 .contentHeadText {
-  color:#4aaaa5;
+  color:#eb2a3a;
   border-bottom:solid #cccccc 1px;
 }
 
 .footer {
   background:#666666;
-  border:solid #4aaaa5;
+  border:solid #eb2a3a;
   border-width:10px 0 0 0;
 }
 
@@ -85,7 +95,7 @@ h1 {
 }
 
 .caption {
-  background:#4aaaa5;
+  background:#eb2a3a;
   color:#ffffff;
   position: relative;
   bottom:10%;
@@ -101,12 +111,12 @@ h1 {
 }
 
 .myBtn:hover {
-  background:#4aaaa5 !important;
+  background:#eb2a3a !important;
   color:#ffffff !important;
-  border:solid #4aaaa5 1px !important;
+  border:solid #eb2a3a 1px !important;
 }
 
-#textArea {
+#text-area {
   resize:none;
 }
 
@@ -115,7 +125,7 @@ h1 {
 }
 
 .dropbtn {
-  background-color: #4aaaa5;
+  background-color: #eb2a3a;
   color: white;
   padding: 0.5rem;
   width:100%;
@@ -161,7 +171,131 @@ h1 {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-  background-color: #4aaaa5;
+  background-color: #eb2a3a;
 }
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+
+
+.form-signin {
+  width: 100%;
+  max-width: 420px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-label-group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.form-label-group > input,
+.form-label-group > label {
+  height: 3.125rem;
+  padding: .75rem;
+}
+
+.form-textarea-label-group > label {
+  height: 3.125rem !important;
+  padding: 0.35rem 0rem 0 0.75rem !important
+}
+
+.form-label-group > label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  margin-bottom: 0; /* Override default `<label>` margin */
+  line-height: 1.5;
+  color: #495057;
+  pointer-events: none;
+  cursor: text; /* Match the input under the label */
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  transition: all .1s ease-in-out;
+}
+
+.form-label-group input::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input:-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::-moz-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::placeholder {
+  color: transparent;
+}
+
+.form-label-group input:not(:placeholder-shown) {
+  padding-top: 1.25rem;
+  padding-bottom: .25rem;
+}
+
+.form-label-group input:not(:placeholder-shown) ~ label {
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+  font-size: 12px;
+  color: #777;
+}
+
+
+.form-label-group textarea::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group textarea:-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group textarea::-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group textarea::-moz-placeholder {
+  color: transparent;
+}
+
+.form-label-group textarea::placeholder {
+  color: transparent;
+}
+
+.form-label-group textarea:not(:placeholder-shown) {
+  padding-top: 1.25rem;
+  padding-bottom: .25rem;
+}
+
+.form-label-group textarea:not(:placeholder-shown) ~ label {
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+  font-size: 12px;
+  color: #777;
+}
+
+
+
 
 

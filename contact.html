@@ -58,24 +58,25 @@
           <div class="contentHead">
               <h2 class="contentHeadText">Contact Me</h2>
           </div>
+          
 
             <form>
-              <div class="form-group">
-                <label for="inputName">Name:</label>
-                <input type="name" class="form-control" id="inputName" placeholder="John Smith">
+              <div class="form-label-group">
+                <input type="name" class="form-control" id="inputName" placeholder="Name">
+                <label for="inputName">Name</label>
               </div>
 
-              <div class="form-group">
-                <label for="inputEmail">Email:</label>
-                <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="jsmith@email.com">
+              <div class="form-label-group">
+                <input type="email" id="inputEmail" class="form-control" placeholder="Email address">
+                <label for="inputEmail">Email address</label>
               </div>
 
-              <div class="form-group">
-                <label for="textArea">Message:</label>
-                <textarea class="form-control" rows="10" id="textArea" placeholder="Send me a message!"></textarea>
+              <div class="form-label-group form-textarea-label-group">
+                <textarea class="form-control" rows="5" id="text-area" placeholder="Message"></textarea>
+                <label for="text-area">Message</label>
               </div>
               
-              <button type="submit" class="btn myBtn">Submit</button>
+              <button type="submit" class="btn myBtn" id="submit-button">Submit</button>
 
             </form>
 
@@ -83,13 +84,12 @@
 
     </div>
 
-    <div class="space">   
-    </div>
+   
     
 
     <div class="row fixed-bottom footer">
       <div class="col-12">
-        <p class="text-center align-center p-2 footerText">&copy; 2019 Michael Hegner</p>
+        <p class="text-center align-center p-1 footerText">&copy; 2019 Michael Hegner</p>
       </div>
     </div>
 
