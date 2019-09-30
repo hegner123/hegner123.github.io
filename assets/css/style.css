@@ -2,11 +2,9 @@ body {
   background-image:url(../images/prism.png)
 }
 
-
-  .container {
+.container {
     max-width: 1140px !important;
 }
-
 
 p {
   color:#777777;
@@ -18,7 +16,7 @@ h1 {
   font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-.myNav {
+.my-nav {
   border:solid #cccccc;
   border-width:0 0 1px 0;
   background:white;
@@ -26,60 +24,37 @@ h1 {
 
 .navbar {
 	margin:0 !important;
-	padding: 0px !important;
+	padding: 0 !important;
 }
 
-.nav-container {
-  margin-left: 17.5%;
-}
-
-.myBrand {
+.my-brand {
   background:#eb2a3a;
-  
-}
-
-.name {
-  padding-left:10px;
-  padding-right:10px;
-  
-}
-
-.nav-buttons {
-  margin-left: 15%;
 }
 
 
-.navButtonToggle {
-  padding:1.07rem;
-  background:#eb2a3a;
-  border-radius: 0;
-}
-
-
-
-.activeLink {
+.active-link {
   background:#eb2a3a;
   color:white !important;
   padding:1.3rem;
   text-align: center;
 }
 
-.deadLink {
+.dead-link {
   color:#777777 !important;
   padding:1.3rem;
   text-align: center;
 }
 
-.deadLink:hover {
+.dead-link:hover {
   background:#eb2a3a;
   color:white !important;
 }
 
-.myContent {
+.my-content {
   background:#ffffff;
 }
 
-.contentHeadText {
+.content-head-text {
   color:#eb2a3a;
   border-bottom:solid #cccccc 1px;
 }
@@ -90,7 +65,7 @@ h1 {
   border-width:10px 0 0 0;
 }
 
-.footerText {
+.footer-text {
   color:white;
 }
 
@@ -105,12 +80,12 @@ h1 {
   height:100px !important;
 }
 
-.myBtn {
+.my-btn {
   border:solid #777777 1px !important;
   color: #777777 !important;
 }
 
-.myBtn:hover {
+.my-btn:hover {
   background:#eb2a3a !important;
   color:#ffffff !important;
   border:solid #eb2a3a 1px !important;
@@ -120,11 +95,11 @@ h1 {
   resize:none;
 }
 
-.contentImg {
+.content-img {
   border-radius: 15px;
 }
 
-.dropbtn {
+.drop-btn {
   background-color: #eb2a3a;
   color: white;
   padding: 0.5rem;
