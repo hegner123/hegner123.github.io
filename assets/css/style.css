@@ -17,7 +17,7 @@ h1 {
 }
 
 .my-nav {
-  border:solid #cccccc;
+  border:solid #eb2a3a;
   border-width:0 0 1px 0;
   background:white;
 }
@@ -98,6 +98,7 @@ h1 {
 
 .content-img {
   border-radius: 15px;
+  border: solid 2px #eb2a3a;
 }
 
 .drop-btn {
